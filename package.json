@@ -1,0 +1,32 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "description": "this is my first frontend and backend project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Allwintitus",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "2.2.7",
+    "bcryptjs": "2.4.3",
+    "colors": "1.4.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "express-async-handler": "1.2.0",
+    "jsonwebtoken": "9.0.2",
+    "middleware": "1.0.0",
+    "mongodb": "6.8.0",
+    "mongoose": "8.5.3",
+    "react-modal": "3.16.1",
+    "react-model": "4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}
