@@ -1,6 +1,5 @@
     //Creating the express Server
     const express=require('express');
-    const colors=require('colors')
     const dotenv=require('dotenv').config()
     const cors = require('cors')
     const connectionDB=require('./config/db')
