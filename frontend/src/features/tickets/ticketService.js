@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API_URL = '/api/tickets/'
-axios.defaults.baseURL='https://ticketing-system-fullstack-project.onrender.com'
+
 // Create new ticket
 const createTicket = async (ticketData, token) => {
   const config = {
