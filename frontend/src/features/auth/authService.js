@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API_URL='/api/users/'
-axios.defaults.baseURL='http://localhost:5000'
+axios.defaults.baseURL='https://ticketing-system-fullstack-project.onrender.com'
 
 //Register user
 const register = async (userData)=>{
